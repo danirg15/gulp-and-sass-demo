@@ -1,23 +1,13 @@
-$primary-color: #fff;
-$danger-color: red;
-
-p {
-
-	table {
-		max-width: 100px;
-	}
-	
-	h1 {
-		background-color: $danger-color;
-		border-radius: 1px;
-		display: flex;
-	}
-	
-	a {
-		color: $primary-color;
-	}
-}	
+@import 'reset';
+@import 'extend';
+@import 'mixin';
+@import 'operator';
 
 
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
 
-
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
