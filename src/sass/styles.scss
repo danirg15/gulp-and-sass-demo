@@ -1,0 +1,23 @@
+$primary-color: #fff;
+$danger-color: red;
+
+p {
+
+	table {
+		max-width: 100px;
+	}
+	
+	h1 {
+		background-color: $danger-color;
+		border-radius: 1px;
+		display: flex;
+	}
+	
+	a {
+		color: $primary-color;
+	}
+}	
+
+
+
+
