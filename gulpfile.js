@@ -4,6 +4,7 @@ const cssmin = require('gulp-cssmin')
 const autoprefixer = require('gulp-autoprefixer')
 const uglify = require('gulp-uglify')
 const concat = require('gulp-concat')
+const rename = require('gulp-rename')
 
 
 gulp.task('css', () => {
@@ -11,6 +12,7 @@ gulp.task('css', () => {
 			   .pipe(sass())
 			   .pipe(cssmin())
 			   .pipe(autoprefixer())
+			   .pipe(rename('app.css'))
 			   .pipe(gulp.dest('./dist/css'))
 })
 
