@@ -1,0 +1,27 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+.message, .success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.box {
+  border-radius: 10px; }
+
+.container {
+  width: 62.5%; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: red; }
